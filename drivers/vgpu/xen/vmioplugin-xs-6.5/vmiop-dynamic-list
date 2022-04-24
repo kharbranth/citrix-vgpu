@@ -1,0 +1,96 @@
+/*
+ * Copyright (c) 2014, NVIDIA CORPORATION. All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ *  * Redistributions of source code must retain the above copyright
+ *    notice, this list of conditions and the following disclaimer.
+ *  * Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in the
+ *    documentation and/or other materials provided with the distribution.
+ *  * Neither the name of NVIDIA CORPORATION nor the names of its
+ *    contributors may be used to endorse or promote products derived
+ *    from this software without specific prior written permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS ``AS IS'' AND ANY
+ * EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+ * PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR
+ * CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+ * EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+ * PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+ * PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY
+ * OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+
+{
+    vmiop_buffer_alloc;
+    vmiop_buffer_apply;
+    vmiop_buffer_free;
+    vmiop_buffer_pullup;
+    vmiop_control_interrupt;
+    vmiop_convert_value;
+    vmiop_cv_alloc;
+    vmiop_cv_broadcast;
+    vmiop_cv_free;
+    vmiop_cv_signal;
+    vmiop_cv_wait;
+    vmiop_create_guest_region;
+    vmiop_deliver_message;
+    vmiop_drop_su;
+    vmiop_find_plugin;
+    vmiop_get_guest_id;
+    vmiop_get_page_size;
+    vmiop_lock;
+    vmiop_lock_alloc;
+    vmiop_lock_free;
+    vmiop_log;
+    vmiop_config_get;
+    vmiop_map_guest_mmio;
+    vmiop_map_guest_memory;
+    vmiop_map_guest_memory_pages;
+    vmiop_map_guest_region;
+    vmiop_memory_alloc_internal;
+    vmiop_memory_free_internal;
+    vmiop_option_debug;
+    vmiop_paged_memory_alloc;
+    vmiop_paged_memory_free;
+    vmiop_pin_guest_pages;
+    vmiop_presentation;
+    vmiop_presentation_set_attribute;
+    vmiop_pt_pixel_copy_and_swap;
+    vmiop_register_emul_device;
+    vmiop_relocate_guest_region;
+    vmiop_set_guest_dirty_pages;
+    vmiop_set_su;
+    vmiop_spin_lock;
+    vmiop_spin_unlock;
+    vmiop_spinlock_alloc;
+    vmiop_spinlock_free;
+    vmiop_thread_alloc;
+    vmiop_thread_event_alloc;
+    vmiop_thread_event_free;
+    vmiop_thread_event_post;
+    vmiop_thread_event_wait;
+    vmiop_thread_get_time;
+    vmiop_translate_guest_pages;
+    vmiop_unlock;
+    vmiop_unmap_guest_memory;
+    vmiop_unpin_guest_pages;
+    vmiop_unregister_emul_device;
+    vmiop_vga_init;
+    vmiop_vga_in_VGA_state;
+    vmiop_vga_ioport_access;
+    vmiop_vga_set_callback_table;
+    vmiop_vga_set_VGA_state;
+    vmiop_vga_shutdown;
+    vmiop_update_guest_lfb;
+    vmiop_vga_update_frame_buffer;
+    vmiop_thread_join;
+    vmiop_control_interrupt_msi;
+    vmiop_restore_original_lfb;
+    vmiop_support_discard_presentation_surface_params;
+};
